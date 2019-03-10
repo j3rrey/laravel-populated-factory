@@ -27,6 +27,7 @@ class PopulatedFactoryServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 PopulatedFactoryMake::class,
+                PopulatedFactoriesMake::class,
             ]);
         }
     }
