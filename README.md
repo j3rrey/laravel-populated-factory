@@ -2,12 +2,14 @@
 
 <p align="center"><b>Laravel Populated Factory</b> provides an easy way to generate populated factories for models according to types & names of their columns.</p>
 
-In this fork you can also just create factories based on directories.
+In this fork you can also create factories based on directories.
 For custom directories just pass in the Directory name.
 
 ```php
 php artisan make:populated-factories Models
 ```
+
+You will be asked if you want to create a factory for each Model found in the directory
 
 ## Install
 
