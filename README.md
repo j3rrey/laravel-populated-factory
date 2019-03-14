@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+
 <p align="center"><img alt="Laravel Populated Factory" src="https://i.imgur.com/OEiucXg.png" width="500"></p>
 
 <p align="center"><b>Laravel Populated Factory</b> provides an easy way to generate populated factories for models according to types & names of their columns.</p>
