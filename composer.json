@@ -1,23 +1,38 @@
 {
-    "name": "coderello/laravel-populated-factory",
-    "description": "An easy way to generate populated factories.",
-    "keywords": ["laravel", "populated", "factory", "populate", "factories"],
+    "name": "J3rry/laravel-populated-factory",
+    "description": "An easy way to generate populated factories and seed files.",
+    "keywords": ["laravel", "populate", "factory", "seeds", "populate", "factories", "model", "models", "entities"],
     "type": "library",
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "laravel/framework": "5.5.*|5.6.*|5.7.*|5.8.*",
+        "laravel/framework": "^5.5,<5.9",
         "doctrine/dbal": "^2.9"
+    },
+    "require-dev": {
+        "phpro/grumphp": "^0.15",
+        "squizlabs/php_codesniffer": "^3",
+        "phpunit/phpunit": "8.*"
     },
     "autoload": {
         "psr-4": {
-            "Coderello\\PopulatedFactory\\": "src/"
+            "J3rry\\PopulatedFactory\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "J3rry\\LaravelIdeHelper\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 src/",
+        "fix-style": "phpcbf -p --standard=PSR2 src/"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Coderello\\PopulatedFactory\\Providers\\PopulatedFactoryServiceProvider"
+                "J3rry\\PopulatedFactory\\Providers\\PopulatedFactoryServiceProvider"
             ]
         }
     }
