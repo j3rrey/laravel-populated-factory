@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/j3rrey/laravel-populated-factory.svg?branch=master)](https://travis-ci.com/j3rrey/laravel-populated-factory)[![Maintainability](https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/maintainability)](https://codeclimate.com/github/j3rrey/laravel-populated-factory/maintainability)
+[![Build Status](https://travis-ci.com/j3rrey/laravel-populated-factory.svg?branch=master)](https://travis-ci.com/j3rrey/laravel-populated-factory)[![StyleCI](https://github.styleci.io/repos/174882480/shield?branch=master)](https://github.styleci.io/repos/174882480)[![Maintainability](https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/maintainability)](https://codeclimate.com/github/j3rrey/laravel-populated-factory/maintainability)
 <a href="https://codeclimate.com/github/j3rrey/laravel-populated-factory/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/test_coverage" /></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/hyperium/hyper.svg" /></a>
 
