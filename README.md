@@ -1,13 +1,10 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/maintainability)](https://codeclimate.com/github/j3rrey/laravel-populated-factory/maintainability)
+[![Build Status](https://travis-ci.com/j3rrey/laravel-populated-factory.svg?branch=master)](https://travis-ci.com/j3rrey/laravel-populated-factory)[![Maintainability](https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/maintainability)](https://codeclimate.com/github/j3rrey/laravel-populated-factory/maintainability)
 <a href="https://codeclimate.com/github/j3rrey/laravel-populated-factory/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4345ff2db5a328125e41/test_coverage" /></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/hyperium/hyper.svg" /></a>
 
+This is a fork from the Original
 
-<p align="center"><img alt="Laravel Populated Factory" src="https://i.imgur.com/OEiucXg.png" width="500"></p>
-
-<p align="center"><b>Laravel Populated Factory</b> provides an easy way to generate populated factories for models according to types & names of their columns.</p>
-
-In this fork you can also create factories based on directories.
+In this fork you can create factories based on directories.
 For custom directories just pass in the Directory name.
 
 ```php
@@ -16,12 +13,19 @@ php artisan make:populated-factories Models
 
 You will be asked if you want to create a factory for each Model found in the directory
 
+Further development will be made. 
+I'm planning to make this an all in one Model seed generator maybe even a new model generator with seeds etc included.
+
+<p align="center"><img alt="Laravel Populated Factory" src="https://i.imgur.com/OEiucXg.png" width="500"></p>
+
+<p align="center"><b>Laravel Populated Factory</b> provides an easy way to generate populated factories for models according to types & names of their columns.</p>
+
 ## Install
 
 You can install this package via composer using this command:
 
 ```php
-composer require coderello/laravel-populated-factory
+composer require J3rry/laravel-populated-factory
 ```
 
 The package will automatically register itself.
